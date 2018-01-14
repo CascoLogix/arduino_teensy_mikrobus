@@ -2,7 +2,7 @@
 
   (general
     (links 80)
-    (no_connects 0)
+    (no_connects 4)
     (area 41.374287 25.24 113.565715 113.190001)
     (thickness 1.6)
     (drawings 29)
@@ -1543,8 +1543,8 @@
       (net 36 "Net-(M3-Pad~)") (solder_mask_margin 0.635) (clearance 0.635))
   )
 
-  (module Fastener:MH_#6 (layer F.Cu) (tedit 57D4C499) (tstamp 5A4358A1)
-    (at 62.23 57.15)
+  (module Fastener:MH_#6 locked (layer F.Cu) (tedit 57D4C499) (tstamp 5A4358A1)
+    (at 60.96 57.15)
     (path /5A4484F3)
     (fp_text reference MH1 (at 0 4.445) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1556,8 +1556,8 @@
       (net 1 GND))
   )
 
-  (module Fastener:MH_#6 (layer F.Cu) (tedit 57D4C499) (tstamp 5A4358A6)
-    (at 97.79 57.15)
+  (module Fastener:MH_#6 locked (layer F.Cu) (tedit 57D4C499) (tstamp 5A4358A6)
+    (at 99.06 57.15)
     (path /5A448478)
     (fp_text reference MH2 (at 0 4.445) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1569,8 +1569,8 @@
       (net 1 GND))
   )
 
-  (module Fastener:MH_#6 (layer F.Cu) (tedit 5A431CA8) (tstamp 5A4358AB)
-    (at 62.23 95.25)
+  (module Fastener:MH_#6 locked (layer F.Cu) (tedit 5A431CA8) (tstamp 5A4358AB)
+    (at 60.96 95.25)
     (path /5A4483FC)
     (fp_text reference MH3 (at -1.524 -4.318) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1582,8 +1582,8 @@
       (net 1 GND))
   )
 
-  (module Fastener:MH_#6 (layer F.Cu) (tedit 5A431CAD) (tstamp 5A4358B0)
-    (at 97.79 95.25)
+  (module Fastener:MH_#6 locked (layer F.Cu) (tedit 5A431CAD) (tstamp 5A4358B0)
+    (at 99.06 95.25)
     (path /5A447D37)
     (fp_text reference MH4 (at 1.778 -4.318) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2093,7 +2093,7 @@
   (segment (start 65.77 68.31) (end 66.04 68.58) (width 0.1524) (layer F.Cu) (net 8) (tstamp 5A435473))
   (segment (start 83.82 60.706) (end 83.82 57.15) (width 0.4572) (layer F.Cu) (net 9))
   (segment (start 83.82 55.626) (end 89.916 49.53) (width 0.4572) (layer F.Cu) (net 9) (tstamp 5A45C9F0))
-  (segment (start 89.916 49.53) (end 91.44 49.53) (width 0.4572) (layer F.Cu) (net 9) (tstamp 5A45C9F4) (status 800000))
+  (segment (start 89.916 49.53) (end 91.44 49.53) (width 0.4572) (layer F.Cu) (net 9) (tstamp 5A45C9F4))
   (segment (start 83.82 57.15) (end 83.82 55.626) (width 0.4572) (layer F.Cu) (net 9))
   (segment (start 83.35 63.246) (end 83.82 62.776) (width 0.4572) (layer F.Cu) (net 9))
   (segment (start 83.82 62.776) (end 83.82 60.706) (width 0.4572) (layer F.Cu) (net 9) (tstamp 5A45F83B))
